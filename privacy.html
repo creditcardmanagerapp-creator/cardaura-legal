@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CardAura Privacy Policy</title>
+<title>Cardaura Privacy Policy</title>
 <style>
 body{font:16px/1.6 -apple-system,system-ui,Segoe UI,Roboto,sans-serif;max-width:720px;margin:0 auto;padding:24px 16px;color:#1b1b1f;background:#fff}
 h1{font-size:1.7rem} h2{font-size:1.1rem;margin-top:1.6em} .meta{color:#666;font-size:.9rem}
@@ -11,28 +11,34 @@ h1{font-size:1.7rem} h2{font-size:1.1rem;margin-top:1.6em} .meta{color:#666;font
 </style>
 </head>
 <body>
-<h1>CardAura Privacy Policy</h1>
-<p class="meta">Last updated 31 October 2026</p>
+<h1>Cardaura Privacy Policy</h1>
+<p class="meta">Last updated 21 November 2026</p>
 <h2>Summary</h2>
-<p>Your card and spend data stays on your device. CardAura has no accounts and no servers that receive your financial data. The only data that leaves your device is what the ad service and Apple need to show ads and process purchases.</p>
+<p>Your card and spend data stays on your device. Cardaura has no accounts and no servers that receive your financial data. What leaves your device is: what the ad service and Apple need to show ads and process purchases; requests for public pages Cardaura reads to show exchange rates and, when you ask, travel offers (these reveal your device&#x27;s IP address to those sites but carry none of your data); and, only if you turn on the optional AI features, what is sent to Google as described below. If you connect Gmail, your device talks to Gmail directly; nothing from your mail is sent to Cardaura.</p>
 <h2>What is stored on your device</h2>
-<p>The cards you add and their settings, spend records you enter or import, budgets, fee-waiver and milestone progress, and preferences. For SMS imports only the card&#x27;s last 4 digits, amount, merchant, date and category are kept, not the full message or full card numbers. This data lives in the app&#x27;s private storage and in an app group shared with CardAura&#x27;s own share extension and Shortcuts.</p>
-<h2>SMS and screenshots</h2>
-<p>Messages are read by an Apple Shortcut that you run and then handed to CardAura on your device. Screenshots you share are read on your device. None of this is uploaded by CardAura.</p>
-<h2>Camera</h2>
-<p>The camera is used only to scan UPI QR codes on your device.</p>
+<p>The cards you add and their settings, spend records you enter or import, budgets, fee-waiver and milestone progress, and preferences. For SMS imports Cardaura keeps the message text with the spend (shown under &quot;Original message&quot;, and used so the same message is never imported twice) along with the card&#x27;s last 4 digits, amount, merchant, date and category. Recent import logs also keep the message text. Full card numbers are never stored. This data lives in the app&#x27;s private storage and in an app group shared with Cardaura&#x27;s own share extension and Shortcuts.</p>
+<h2>SMS messages</h2>
+<p>Messages are read by an Apple Shortcut that you run, or shared from Messages, and then handed to Cardaura on your device. None of this is uploaded by Cardaura.</p>
 <h2>Advertising</h2>
-<p>CardAura uses Google AdMob to show ads. Google may collect your device&#x27;s advertising identifier, IP address and ad interaction data to serve and measure ads, and may use it for personalised advertising if you allow tracking. On iOS you are asked for permission through Apple&#x27;s tracking prompt, and where required a consent form. You can change your choice in iOS Settings &gt; Privacy &amp; Security &gt; Tracking, or via &quot;Privacy choices&quot; in the Go ad-free screen. Subscribing removes ads. See Google&#x27;s privacy policy at policies.google.com/privacy.</p>
+<p>Cardaura uses Google AdMob to show ads. Google may collect your device&#x27;s advertising identifier, IP address and ad interaction data to serve and measure ads, and may use it for personalised advertising if you allow tracking. On iOS you are asked for permission through Apple&#x27;s tracking prompt, and where required a consent form. You can change your choice in iOS Settings &gt; Privacy &amp; Security &gt; Tracking, or via &quot;Privacy choices&quot; in the Go ad-free screen. Subscribing removes ads. See Google&#x27;s privacy policy at policies.google.com/privacy.</p>
+<h2>Optional AI features</h2>
+<p>If you add your own Google API key in AI Features and accept the notice there, Cardaura sends requests directly from your device to Google&#x27;s Gemini API. To re-categorise spends it sends merchant names and spend amounts. For AI insights it sends your monthly spend totals by category, the names and fees of cards you hold, details of candidate cards from Cardaura&#x27;s catalog, and the goals and note you choose. It never sends SMS text, card or account numbers, exact dates, notes on spends, or anything that names you. Google handles this data under its own terms and privacy policy and may use it to train and improve its models; Cardaura has no control over this. Your API key is stored only in your device&#x27;s Keychain. Remove the key in AI Features to stop sharing. See ai.google.dev/gemini-api/terms.</p>
+<h2>Gmail import (optional)</h2>
+<p>If you connect Gmail, you create a Google App Password and enter it with your Gmail address. Both are stored only in your device&#x27;s Keychain. Cardaura signs in to Gmail directly from your device over an encrypted connection (IMAP) and only reads mail: it never sends, changes, moves or deletes anything. It looks only at bank and card emails (transaction alerts, statements, limit, fee and card updates, lounge visits). From these it keeps on your device the spends, card and account last 4 digits, statement dates and amounts, and the card changes it applies; the import log keeps the alert text so the same email is not imported twice. Email text is never sent to Cardaura or anyone else. If you also turned on &quot;Use AI to read statements&quot;, the text of statement emails (not alerts, not PDFs) is sent to Google Gemini with your own key. Disconnect Gmail to delete the App Password and stop reading mail; you can also revoke it at myaccount.google.com/apppasswords.</p>
+<h2>PDF statements and personal details (optional)</h2>
+<p>Many banks lock statement PDFs with a password made from your name, date of birth, PAN or mobile number. If you turn on &quot;Read PDF statements&quot; you may enter any of these. They are stored only in your device&#x27;s Keychain, are used only on your device to try the passwords banks build from them, and are never sent anywhere. The passwords tried are never stored; Cardaura remembers only which kind of password worked for each bank. PDFs are opened in memory and never saved. From them Cardaura keeps the statement figures (statement and due dates, amounts due, credit limit), the card&#x27;s last 4 digits and the purchases listed, which become spends. Use &quot;Remove my details&quot; on the Gmail screen, or disconnect Gmail, to delete them.</p>
+<h2>Screen lock</h2>
+<p>If you turn on Screen lock (off by default, in Settings &amp; privacy), Cardaura asks iOS to confirm it&#x27;s you with Face ID, Touch ID or your device passcode when the app opens. Cardaura never sees or stores your face, fingerprint or passcode; it only learns whether iOS confirmed you. The app is hidden in the app switcher.</p>
 <h2>Purchases</h2>
-<p>Subscriptions are processed by Apple. CardAura receives only whether your subscription is active, not your payment details.</p>
+<p>Subscriptions are processed by Apple. Cardaura receives only whether your subscription is active, not your payment details.</p>
 <h2>Analytics and sharing</h2>
-<p>CardAura does not use analytics or crash-reporting services and does not sell your data.</p>
+<p>Cardaura does not use analytics or crash-reporting services and does not sell your data.</p>
 <h2>Your control</h2>
-<p>Delete a card or spend record in the app to remove it, or delete the app to remove all its data from your device. Backups you keep through iCloud or your computer are governed by Apple&#x27;s settings.</p>
+<p>Delete a spend record in the app to remove it. Removing a card from your wallet hides it but keeps its settings (last 4 digits, notes, fee and rate overrides) on your device, so they return if you add the card again. Delete the app to remove all its data from your device; the iOS Keychain can keep your optional Google API key after the app is deleted, so remove the key in AI Features first. Backups you keep through iCloud or your computer are governed by Apple&#x27;s settings. Export backup (in Settings &amp; privacy) writes your data to a file encrypted with a passphrase you choose; it is created on your device and goes only where you save or share it. It leaves out your Google API key, Gmail App Password and statement PDF details.</p>
 <h2>Children</h2>
-<p>CardAura is not intended for children under 18.</p>
+<p>Cardaura is not intended for children under 18.</p>
 <h2>Changes</h2>
-<p>If this policy changes materially you will be asked to review it again. Last updated 31 October 2026.</p>
+<p>If this policy changes materially you will be asked to review it again. Last updated 21 November 2026.</p>
 <h2>Contact</h2>
 <p>Questions or requests: creditcardmanagerapp@gmail.com</p>
 </body>
